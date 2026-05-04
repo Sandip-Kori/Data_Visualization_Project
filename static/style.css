@@ -105,8 +105,8 @@ body {
 }
 
 .filter-group select {
-  width: 220px;
-  min-width: 180px;
+  width: 180px;
+  min-width: 160px;
   padding: 12px 14px;
   border-radius: 14px;
   border: 1px solid var(--border);

@@ -25,7 +25,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df.drop_duplicates(inplace=True)
 
     # Ensure required columns exist
-    required_columns = ["Order ID", "Order Date", "Sales", "Profit", "Quantity", "Category", "Region", "Product Name"]
+    required_columns = ["Order ID", "Order Date", "Sales", "Profit", "Quantity", "Country", "Category", "Region", "Product Name"]
     df = df[[col for col in required_columns if col in df.columns]].copy()
 
     # Convert Order Date to datetime
@@ -40,9 +40,9 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df.dropna(subset=["Order ID", "Order Date", "Sales", "Profit", "Quantity", "Category", "Region", "Product Name"], inplace=True)
 
     # Replace any remaining numeric NaN values with zeros
-    df["Sales"].fillna(0, inplace=True)
-    df["Profit"].fillna(0, inplace=True)
-    df["Quantity"].fillna(0, inplace=True)
+    df["Sales"] = df["Sales"].fillna(0)
+    df["Profit"] = df["Profit"].fillna(0)
+    df["Quantity"] = df["Quantity"].fillna(0)
 
     # Ensure Quantity is integer
     df["Quantity"] = df["Quantity"].astype(int)
@@ -146,8 +146,10 @@ def create_pie_chart(df: pd.DataFrame, names_col: str, values_col: str, title: s
     return pio.to_html(fig, include_plotlyjs=False, full_html=False)
 
 
-def filter_data(df: pd.DataFrame, region: str, category: str) -> pd.DataFrame:
+def filter_data(df: pd.DataFrame, country: str, region: str, category: str) -> pd.DataFrame:
     filtered = df.copy()
+    if country and country != "All":
+        filtered = filtered[filtered["Country"] == country]
     if region and region != "All":
         filtered = filtered[filtered["Region"] == region]
     if category and category != "All":
@@ -157,14 +159,16 @@ def filter_data(df: pd.DataFrame, region: str, category: str) -> pd.DataFrame:
 
 @app.route("/")
 def index():
+    selected_country = request.args.get("country", "All")
     selected_region = request.args.get("region", "All")
     selected_category = request.args.get("category", "All")
 
     df = load_data()
+    country_options = ["All"] + sorted(df["Country"].dropna().unique().tolist())
     region_options = ["All"] + sorted(df["Region"].dropna().unique().tolist())
     category_options = ["All"] + sorted(df["Category"].dropna().unique().tolist())
 
-    filtered_df = filter_data(df, selected_region, selected_category)
+    filtered_df = filter_data(df, selected_country, selected_region, selected_category)
     kpis = compute_kpis(filtered_df)
 
     sales_by_category = aggregate_sales_by_category(filtered_df)
@@ -192,8 +196,10 @@ def index():
         trend_chart=trend_chart,
         region_chart=region_chart,
         product_chart=product_chart,
+        country_options=country_options,
         region_options=region_options,
         category_options=category_options,
+        selected_country=selected_country,
         selected_region=selected_region,
         selected_category=selected_category,
         no_data=filtered_df.empty,

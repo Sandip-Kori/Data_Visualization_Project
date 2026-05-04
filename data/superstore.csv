@@ -9,3 +9,43 @@ CA-2014-119933,2014-09-16,Standard Class,Christopher Parker,Corporate,United Sta
 CA-2014-139246,2014-12-06,Standard Class,James King,Home Office,United States,Chicago,Illinois,60607,Central,Technology,Accessories,Canon Wireless Mouse,63.90,4,0,3.15
 CA-2015-117983,2015-10-09,Standard Class,Janet Weaver,Consumer,United States,New York,New York,10009,East,Office Supplies,Paper,HP LaserJet Paper,22.37,5,0,8.30
 CA-2015-118320,2015-10-11,Second Class,Margaret Marshall,Corporate,United States,San Francisco,California,94122,West,Technology,Phones,Samsung Galaxy S6,608.76,2,0,26.74
+UK-2016-105564,2016-08-15,First Class,David Brown,Consumer,United Kingdom,London,London,SW1A,Europe,Furniture,Bookcases,Modern Wooden Bookshelf,450.00,3,0.1,135.00
+UK-2016-105564,2016-08-15,First Class,David Brown,Consumer,United Kingdom,London,London,SW1A,Europe,Technology,Phones,Samsung Galaxy Note,1250.00,1,0,312.50
+UK-2015-142456,2015-05-20,Standard Class,Emily Watson,Corporate,United Kingdom,Manchester,Manchester,M1,Europe,Office Supplies,Storage,Industrial Metal Cabinet,320.00,2,0.15,92.80
+UK-2014-156789,2014-11-30,Second Class,Michael Johnson,Consumer,United Kingdom,Birmingham,Birmingham,B1,Europe,Furniture,Chairs,Premium Office Chair,640.00,1,0,192.00
+CA-2016-152157,2016-09-12,Express Class,Sophie Martin,Consumer,Canada,Toronto,Ontario,M5H,North America,Technology,Accessories,Apple Magic Keyboard,199.99,2,0,59.99
+CA-2016-152158,2016-10-05,Standard Class,Liam O'Brien,Corporate,Canada,Vancouver,British Columbia,V6B,North America,Furniture,Tables,Maple Conference Table,890.00,1,0.1,267.00
+CA-2016-152159,2016-07-22,Second Class,Rachel Lee,Consumer,Canada,Montreal,Quebec,H1A,North America,Office Supplies,Paper,Premium Printing Paper,45.50,10,0,13.65
+CA-2015-142457,2015-04-10,Standard Class,James Wilson,Home Office,Canada,Calgary,Alberta,T2P,North America,Technology,Phones,iPhone 12 Pro,1500.00,1,0,450.00
+DE-2016-153001,2016-12-01,First Class,Anna Schmidt,Consumer,Germany,Berlin,Berlin,10115,Europe,Furniture,Bookcases,Scandinavian Design Shelves,380.00,2,0,114.00
+DE-2016-153002,2016-11-18,Standard Class,Klaus Mueller,Corporate,Germany,Munich,Bavaria,80331,Europe,Technology,Accessories,German Mechanical Keyboard,299.99,3,0.05,89.99
+DE-2015-152888,2015-08-25,Second Class,Petra Fischer,Consumer,Germany,Hamburg,Hamburg,20095,Europe,Office Supplies,Storage,Industrial Storage Unit,550.00,2,0.2,121.00
+DE-2014-152777,2014-06-15,Standard Class,Hans Weber,Corporate,Germany,Frankfurt,Hesse,60311,Europe,Furniture,Chairs,Ergonomic Office Chair,720.00,1,0,216.00
+FR-2016-154001,2016-10-08,Express Class,Marie Dupont,Consumer,France,Paris,Île-de-France,75001,Europe,Technology,Phones,Samsung Galaxy S21,899.00,1,0,269.70
+FR-2016-154002,2016-09-20,Standard Class,Pierre Bernard,Corporate,France,Lyon,Auvergne-Rhône-Alpes,69001,Europe,Furniture,Tables,French Oak Table,1200.00,1,0.1,360.00
+FR-2015-153888,2015-07-12,Second Class,Isabelle Moreau,Consumer,France,Marseille,Provence-Alpes-Côte d'Azur,13001,Europe,Office Supplies,Labels,Premium Labels Set,28.50,5,0,8.55
+FR-2014-153777,2014-05-30,Standard Class,Jean Leclerc,Home Office,France,Nice,Provence-Alpes-Côte d'Azur,06000,Europe,Technology,Accessories,Wireless Mouse Set,89.99,4,0,26.99
+AU-2016-155001,2016-11-25,First Class,John Smith,Consumer,Australia,Sydney,New South Wales,2000,Asia-Pacific,Furniture,Bookcases,Australian Timber Bookcase,520.00,1,0,156.00
+AU-2016-155002,2016-10-30,Standard Class,Sarah Williams,Corporate,Australia,Melbourne,Victoria,3000,Asia-Pacific,Technology,Phones,iPhone 13,999.00,2,0,299.70
+AU-2015-154888,2015-09-14,Second Class,Michael Johnson,Consumer,Australia,Brisbane,Queensland,4000,Asia-Pacific,Office Supplies,Storage,Filing Cabinet,410.00,1,0.1,123.00
+AU-2014-154777,2014-08-22,Standard Class,Emma Davis,Home Office,Australia,Perth,Western Australia,6000,Asia-Pacific,Furniture,Chairs,Ergonomic Chair Pro,880.00,1,0,264.00
+JP-2016-156001,2016-12-10,Express Class,Taro Yamamoto,Consumer,Japan,Tokyo,Tokyo,100-0001,Asia-Pacific,Technology,Accessories,Japanese Mechanical Keyboard,449.99,2,0,134.99
+JP-2016-156002,2016-11-05,Standard Class,Yuki Tanaka,Corporate,Japan,Osaka,Osaka,530-0001,Asia-Pacific,Furniture,Tables,Japanese Minimalist Table,950.00,1,0.05,285.00
+JP-2015-155888,2015-10-18,Second Class,Kenji Sato,Consumer,Japan,Kyoto,Kyoto,600-8001,Asia-Pacific,Office Supplies,Paper,High Quality Japanese Paper,65.00,8,0,19.50
+JP-2014-155777,2014-09-27,Standard Class,Hiroshi Nakamura,Home Office,Japan,Yokohama,Kanagawa,220-0011,Asia-Pacific,Technology,Phones,Sony Mobile Phone,750.00,1,0,225.00
+IN-2016-157001,2016-11-02,Standard Class,Rajesh Kumar,Consumer,India,Mumbai,Maharashtra,400001,Asia-Pacific,Office Supplies,Storage,Industrial Storage Rack,380.00,3,0.1,91.20
+IN-2016-157002,2016-10-20,Second Class,Priya Sharma,Corporate,India,Delhi,Delhi,110001,Asia-Pacific,Furniture,Chairs,Comfortable Office Chair,520.00,2,0,156.00
+IN-2015-156888,2015-08-05,Standard Class,Arjun Singh,Consumer,India,Bangalore,Karnataka,560001,Asia-Pacific,Technology,Accessories,Wireless Charging Pad,149.99,5,0.05,37.49
+IN-2014-156777,2014-07-10,First Class,Ananya Gupta,Home Office,India,Chennai,Tamil Nadu,600001,Asia-Pacific,Office Supplies,Labels,Eco-Friendly Labels,35.00,10,0,10.50
+BR-2016-158001,2016-12-15,Standard Class,Carlos Silva,Consumer,Brazil,São Paulo,São Paulo,01310,South America,Furniture,Bookcases,Tropical Wood Bookcase,480.00,2,0,144.00
+BR-2016-158002,2016-11-22,Second Class,Maria Santos,Corporate,Brazil,Rio de Janeiro,Rio de Janeiro,20040020,South America,Technology,Phones,Samsung Galaxy A12,450.00,3,0,135.00
+BR-2015-157888,2015-09-08,Standard Class,Pedro Costa,Consumer,Brazil,Belo Horizonte,Minas Gerais,30140071,South America,Office Supplies,Storage,Metal Storage Chest,290.00,1,0.1,67.70
+BR-2014-157777,2014-08-16,First Class,Lucas Oliveira,Home Office,Brazil,Salvador,Bahia,40010140,South America,Furniture,Chairs,Elegant Office Chair,650.00,1,0,195.00
+MX-2016-159001,2016-10-28,Standard Class,Jorge Gonzalez,Consumer,Mexico,Mexico City,Mexico City,06500,North America,Technology,Accessories,Laptop Stand,129.99,4,0,39.00
+MX-2016-159002,2016-09-14,Second Class,Isabella Garcia,Corporate,Mexico,Guadalajara,Jalisco,44100,North America,Furniture,Tables,Wooden Meeting Table,780.00,1,0.15,234.00
+MX-2015-158888,2015-07-22,Standard Class,Diego Hernandez,Consumer,Mexico,Monterrey,Nuevo León,64000,North America,Office Supplies,Paper,Eco-Friendly Paper,55.00,6,0,16.50
+MX-2014-158777,2014-06-30,First Class,Sofia Martinez,Home Office,Mexico,Cancun,Quintana Roo,77500,North America,Technology,Phones,Samsung Galaxy Note 20,850.00,1,0,255.00
+NZ-2016-160001,2016-11-09,Express Class,Aidan Thompson,Consumer,New Zealand,Auckland,Auckland,1010,Asia-Pacific,Furniture,Bookcases,Modern NZ Timber Shelf,420.00,2,0.05,115.50
+NZ-2016-160002,2016-10-17,Standard Class,Emma Wilson,Corporate,New Zealand,Wellington,Wellington,6011,Asia-Pacific,Technology,Accessories,Wireless Mouse Pro,89.99,3,0,26.99
+NZ-2015-159888,2015-08-25,Second Class,James Brown,Consumer,New Zealand,Christchurch,Canterbury,8011,Asia-Pacific,Office Supplies,Storage,Compact Storage Unit,250.00,2,0,75.00
+NZ-2014-159777,2014-07-20,Standard Class,Olivia Davis,Home Office,New Zealand,Hamilton,Waikato,3204,Asia-Pacific,Furniture,Chairs,Premium Executive Chair,950.00,1,0,285.00

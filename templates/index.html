@@ -38,6 +38,14 @@
     <section class="filter-panel">
       <form method="get" class="filter-form">
         <div class="filter-group">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            {% for country in country_options %}
+              <option value="{{ country }}" {% if country == selected_country %}selected{% endif %}>{{ country }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="filter-group">
           <label for="region">Region</label>
           <select id="region" name="region">
             {% for region in region_options %}
@@ -57,7 +65,7 @@
       </form>
       {% if no_data %}
         <div class="empty-state">
-          <p>No data matches the selected filters. Try a different Region or Category.</p>
+          <p>No data matches the selected filters. Try a different Country, Region, or Category.</p>
         </div>
       {% endif %}
     </section>
