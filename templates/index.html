@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Superstore Sales Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://cdn.plot.ly/plotly-2.31.1.min.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="dashboard-header">
+      <div>
+        <h1>Superstore Sales Dashboard</h1>
+        <p>Analyze sales, profit, and performance across regions and categories.</p>
+      </div>
+    </header>
+
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <p class="kpi-label">Total Sales</p>
+        <h2>{{ kpis.total_sales }}</h2>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Total Profit</p>
+        <h2>{{ kpis.total_profit }}</h2>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Total Orders</p>
+        <h2>{{ kpis.total_orders }}</h2>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Profit Margin</p>
+        <h2>{{ kpis.profit_margin }}</h2>
+      </div>
+    </section>
+
+    <section class="filter-panel">
+      <form method="get" class="filter-form">
+        <div class="filter-group">
+          <label for="region">Region</label>
+          <select id="region" name="region">
+            {% for region in region_options %}
+              <option value="{{ region }}" {% if region == selected_region %}selected{% endif %}>{{ region }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="category">Category</label>
+          <select id="category" name="category">
+            {% for category in category_options %}
+              <option value="{{ category }}" {% if category == selected_category %}selected{% endif %}>{{ category }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <button type="submit" class="filter-button">Apply Filters</button>
+      </form>
+      {% if no_data %}
+        <div class="empty-state">
+          <p>No data matches the selected filters. Try a different Region or Category.</p>
+        </div>
+      {% endif %}
+    </section>
+
+    <section class="chart-grid">
+      <div class="chart-card">{{ category_chart | safe }}</div>
+      <div class="chart-card">{{ trend_chart | safe }}</div>
+      <div class="chart-card">{{ region_chart | safe }}</div>
+      <div class="chart-card">{{ product_chart | safe }}</div>
+    </section>
+  </div>
+</body>
+</html>

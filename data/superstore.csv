@@ -1,0 +1,11 @@
+Order ID,Order Date,Ship Mode,Customer Name,Segment,Country,City,State,Postal Code,Region,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+CA-2016-152156,2016-11-08,Second Class,Sean Paul,Consumer,United States,Henderson,Kentucky,42420,South,Furniture,Bookcases,Hon Deluxe Fabric Upholstered Stacking Chairs,261.96,2,0,41.9136
+CA-2016-152156,2016-11-08,Second Class,Sean Paul,Consumer,United States,Henderson,Kentucky,42420,South,Office Supplies,Labels,Acco Self-Adhesive Labels,14.62,2,0,6.87
+US-2016-108966,2016-10-11,Standard Class,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,Technology,Phones,Apple iPhone 6s,900.00,1,0,90.00
+US-2016-108966,2016-10-11,Standard Class,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,Technology,Accessories,Logitech Wireless Keyboard,85.50,3,0,25.65
+CA-2015-115812,2015-06-09,Second Class,Dale Phillips,Corporate,United States,Houston,Texas,77040,West,Office Supplies,Storage,Staples 3-Drawer File Cabinet,210.60,1,0.2,65.72
+CA-2014-138688,2014-09-10,Second Class,Andrew Jordan,Consumer,United States,Los Angeles,California,90032,West,Furniture,Chairs,Hon Task Seating Chair,731.94,3,0,219.58
+CA-2014-119933,2014-09-16,Standard Class,Christopher Parker,Corporate,United States,Seattle,Washington,98101,West,Furniture,Tables,Bush Conference Table,957.58,5,0.45,52.81
+CA-2014-139246,2014-12-06,Standard Class,James King,Home Office,United States,Chicago,Illinois,60607,Central,Technology,Accessories,Canon Wireless Mouse,63.90,4,0,3.15
+CA-2015-117983,2015-10-09,Standard Class,Janet Weaver,Consumer,United States,New York,New York,10009,East,Office Supplies,Paper,HP LaserJet Paper,22.37,5,0,8.30
+CA-2015-118320,2015-10-11,Second Class,Margaret Marshall,Corporate,United States,San Francisco,California,94122,West,Technology,Phones,Samsung Galaxy S6,608.76,2,0,26.74
