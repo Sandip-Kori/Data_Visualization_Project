@@ -54,18 +54,7 @@ It transforms raw retail sales data into **interactive insights** to support bus
 
 ## 📁 Project Structure
 
-bi-dashboard/
-│
-├── app.py
-├── data/
-│ └── superstore.csv
-├── templates/
-│ └── index.html
-├── static/
-│ └── style.css
-├── assets/
-│ └── (screenshots here)
-└── README.md
+![Project Structure](assets/folderStructure.png)
 
 ---
 
